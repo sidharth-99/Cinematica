@@ -1,13 +1,13 @@
 using System;
 namespace mm_entity
 {
-    public class MovieList
+    public class MovieList//Class containing details of Movie
     {
-        public MovieList()
+        public MovieList()//default constructor
         {
         }
 
-        public MovieList(string mname, int myear, string mcat, string mlang, double mrate, string mlead, string mdesc, string mduration, string mbudget)
+        public MovieList(string mname, int myear, string mcat, string mlang, double mrate, string mlead, string mdesc, string mduration, string mbudget)//Parametrized Constructor
         {
             moviename = mname;
             movieyear = myear;
@@ -29,10 +29,10 @@ namespace mm_entity
         public string movieduration { get; set; }
         public string moviebudget { get; set; }
     }
-    public class AdminDetails
+    public class AdminDetails//Class to add admin registration details
     {
 
-        public AdminDetails(int adid, string adname, string adpswd)
+        public AdminDetails(int adid, string adname, string adpswd)//Parametrized Constructor
         {
             adminid = adid;
             adminname = adname;
@@ -42,10 +42,10 @@ namespace mm_entity
         public string adminname { get; set; }
         public string adminpswd { get; set; }
     }
-    public class UserDetails
+    public class UserDetails//Class to add customer registration details
     {
 
-        public UserDetails(int uid, string uname, string upswd)
+        public UserDetails(int uid, string uname, string upswd)//Parametrized Constructor
         {
             usernid = uid;
             username = uname;
