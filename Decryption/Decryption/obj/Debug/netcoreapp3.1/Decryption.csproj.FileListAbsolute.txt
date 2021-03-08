@@ -1,0 +1,8 @@
+D:\studies\Movie_Management\Decryption\Decryption\bin\Debug\netcoreapp3.1\Decryption.deps.json
+D:\studies\Movie_Management\Decryption\Decryption\bin\Debug\netcoreapp3.1\Decryption.dll
+D:\studies\Movie_Management\Decryption\Decryption\bin\Debug\netcoreapp3.1\Decryption.pdb
+D:\studies\Movie_Management\Decryption\Decryption\obj\Debug\netcoreapp3.1\Decryption.AssemblyInfoInputs.cache
+D:\studies\Movie_Management\Decryption\Decryption\obj\Debug\netcoreapp3.1\Decryption.AssemblyInfo.cs
+D:\studies\Movie_Management\Decryption\Decryption\obj\Debug\netcoreapp3.1\Decryption.csproj.CoreCompileInputs.cache
+D:\studies\Movie_Management\Decryption\Decryption\obj\Debug\netcoreapp3.1\Decryption.dll
+D:\studies\Movie_Management\Decryption\Decryption\obj\Debug\netcoreapp3.1\Decryption.pdb

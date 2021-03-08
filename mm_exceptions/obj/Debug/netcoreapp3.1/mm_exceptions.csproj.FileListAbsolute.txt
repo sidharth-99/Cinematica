@@ -1,0 +1,46 @@
+D:\asp.net\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.deps.json
+D:\asp.net\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\asp.net\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csprojAssemblyReference.cache
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\asp.net\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\studies\Movie_Management\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.deps.json
+D:\studies\Movie_Management\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\studies\Movie_Management\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csprojAssemblyReference.cache
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\studies\Movie_Management\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.deps.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csprojAssemblyReference.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.deps.json
+E:\Sprint 1\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\Movie-Management-System\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+E:\Sprint 1\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\Movie-Management-System\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Debug\netcoreapp3.1\mm_exceptions.csprojAssemblyReference.cache

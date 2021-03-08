@@ -1,0 +1,59 @@
+D:\asp.net\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.deps.json
+D:\asp.net\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll
+D:\asp.net\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.dll
+D:\asp.net\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\studies\Movie_Management\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.deps.json
+D:\studies\Movie_Management\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll
+D:\studies\Movie_Management\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.dll
+D:\studies\Movie_Management\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.deps.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CopyComplete
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.pdb
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.deps.json
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\Movie-Management-System\mm_DAL\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CopyComplete
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.dll
+E:\Sprint 1\Movie-Management-System\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Debug\netcoreapp3.1\mm_DAL.pdb

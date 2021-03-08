@@ -1,0 +1,14 @@
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_DAL.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_DAL.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\bin\Release\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_DAL\obj\Release\netcoreapp3.1\mm_DAL.pdb

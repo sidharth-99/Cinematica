@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mm_Business\mm_Business.csproj" />
+    <ProjectReference Include="..\mm_DAL\mm_DAL.csproj" />
+    <ProjectReference Include="..\mm_entity\mm_entity.csproj" />
+    <ProjectReference Include="..\mm_exceptions\mm_exceptions.csproj" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="mm_Business">
+      <HintPath>..\mm_Business\bin\Debug\netcoreapp3.1\mm_Business.dll</HintPath>
+    </Reference>
+    <Reference Include="mm_DAL">
+      <HintPath>..\mm_DAL\bin\Debug\netcoreapp3.1\mm_DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="mm_entity">
+      <HintPath>..\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll</HintPath>
+    </Reference>
+    <Reference Include="mm_exceptions">
+      <HintPath>..\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

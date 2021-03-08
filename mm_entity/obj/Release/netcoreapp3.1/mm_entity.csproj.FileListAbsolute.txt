@@ -1,0 +1,13 @@
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\mm_entity.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\moviemanagement.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\moviemanagement.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Release\netcoreapp3.1\moviemanagement.dll.config
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Release\netcoreapp3.1\mm_entity.pdb

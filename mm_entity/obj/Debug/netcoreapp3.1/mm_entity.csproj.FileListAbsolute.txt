@@ -1,0 +1,61 @@
+D:\asp.net\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.deps.json
+D:\asp.net\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll
+D:\asp.net\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.pdb
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.dll
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.pdb
+D:\asp.net\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.deps.json
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.pdb
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.dll
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.pdb
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.pdb
+D:\studies\Movie_Management\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll.config
+D:\studies\Movie_Management\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CopyComplete
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.deps.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll.config
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CopyComplete
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.deps.json
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.pdb
+E:\Sprint 1\Movie-Management-System\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll.config
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+E:\Sprint 1\Movie-Management-System\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\bin\Debug\netcoreapp3.1\moviemanagement.dll.config
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_entity\obj\Debug\netcoreapp3.1\mm_entity.pdb

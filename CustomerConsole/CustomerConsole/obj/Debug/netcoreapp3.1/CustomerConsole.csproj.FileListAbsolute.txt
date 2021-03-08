@@ -1,0 +1,113 @@
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.exe
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.deps.json
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.json
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.dev.json
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.dll
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.pdb
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfoInputs.cache
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfo.cs
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CoreCompileInputs.cache
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.dll
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.pdb
+D:\studies\Movie_Management\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.genruntimeconfig.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csprojAssemblyReference.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfoInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfo.cs
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CoreCompileInputs.cache
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.exe
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.deps.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.dev.json
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.dll
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.pdb
+E:\Sprint 1\sidharth-99\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.genruntimeconfig.cache
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csprojAssemblyReference.cache
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfoInputs.cache
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfo.cs
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CoreCompileInputs.cache
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.exe
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.deps.json
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.json
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.dev.json
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_Business.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_DAL.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_entity.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_Business.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_entity.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CopyComplete
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.dll
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.pdb
+E:\Sprint 1\Movie-Management-System\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.genruntimeconfig.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.exe
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.json
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.runtimeconfig.dev.json
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\CustomerConsole.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_Business.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_DAL.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_Business.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\bin\Debug\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\CustomerConsole\CustomerConsole\obj\Debug\netcoreapp3.1\CustomerConsole.genruntimeconfig.cache

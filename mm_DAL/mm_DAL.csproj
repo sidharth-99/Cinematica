@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="mm_entity">
+      <HintPath>..\mm_entity\bin\Debug\netcoreapp3.1\mm_entity.dll</HintPath>
+    </Reference>
+    <Reference Include="mm_exceptions">
+      <HintPath>..\mm_exceptions\bin\Debug\netcoreapp3.1\mm_exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlClient">
+      <HintPath>..\moviemanagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

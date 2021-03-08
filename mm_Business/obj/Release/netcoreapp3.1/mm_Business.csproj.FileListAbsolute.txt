@@ -1,0 +1,17 @@
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_Business.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_Business.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_Business.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_DAL.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_entity.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_DAL.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_entity.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\bin\Release\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_Business\obj\Release\netcoreapp3.1\mm_Business.pdb

@@ -1,0 +1,11 @@
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Release\netcoreapp3.1\mm_exceptions.deps.json
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Release\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Release\netcoreapp3.1\mm_exceptions.pdb
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.csprojAssemblyReference.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.AssemblyInfoInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.AssemblyInfo.cs
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.csproj.CoreCompileInputs.cache
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.csproj.CopyComplete
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.dll
+D:\Movie-Management-System-core\Movie-Management-System-core\mm_exceptions\obj\Release\netcoreapp3.1\mm_exceptions.pdb
