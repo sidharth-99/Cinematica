@@ -29,8 +29,8 @@ namespace AdminConsole
                 Console.WriteLine("Enter to: ");
                 Console.WriteLine();
                 string[] options = { "Register", "Login" };
-                Menu mainMenu = new Menu(prompt, options);
-                int selectedIndex = mainMenu.Run();
+                Menu mainMenu = new Menu(prompt, options);//Initiaializing object of menu
+                int selectedIndex = mainMenu.Run();//Creates a custom menu with the menu object initialized
                 int adminid;
                 string adminpswd;
                 string adminname;
@@ -38,11 +38,11 @@ namespace AdminConsole
                 switch (selectedIndex)
                 {
                     case 0:
-                        //ALMOST WORKING
+                        //Register as an admin
                         Console.WriteLine("\nADMIN REGISTRATION FORM");
                         Console.WriteLine("-----------------------------------");
                         Console.Write("Enter ID: ");
-                        adminid = mmb.ID();
+                        adminid = mmb.aID();
                         Console.WriteLine();
                         Console.Write("Enter Name: ");
                         adminname = mmb.search();
@@ -50,15 +50,15 @@ namespace AdminConsole
                         Console.Write("Create Password: ");
                         adminpswd = mmb.searchpwd();
                         Console.WriteLine();
-                        AdminDetails a = new AdminDetails(adminid, adminname, adminpswd);
-                        if (mmb.Admin_add(a))
+                        AdminDetails a = new AdminDetails(adminid, adminname, adminpswd);//Adding the details ito AdminDetails class in entity layer
+                        if (mmb.Admin_add(a))//Checkin if successully added the details
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Registration Successful!!");
                             Console.ResetColor();
                         }
                         break;
-                    case 1:
+                    case 1://logging in as admin
                         Console.WriteLine("\nADMIN LOGIN FORM");
                         Console.WriteLine("-----------------------------------");
                         Console.Write("Enter ID: ");
@@ -67,7 +67,7 @@ namespace AdminConsole
                         Console.Write("Enter Password: ");
                         adminpswd = mmb.searchpwd();
                         Console.WriteLine();
-                        if (mmb.admin_validity(adminid, adminpswd))
+                        if (mmb.admin_validity(adminid, adminpswd))//Checking if valid login details
                         {
                             Console.Clear();
                             Console.WriteLine("Login Successful!!");
@@ -76,12 +76,12 @@ namespace AdminConsole
                             {
                                 Console.WriteLine("Choose from the following options: ");
                                 string[] options1 = { "Manage your Movie Dataset", "Search Movie", "Display all Movies" };
-                                Menu colorMenu = new Menu(prompt, options1);
-                                int selectedIndex1 = colorMenu.Run();
+                                Menu colorMenu = new Menu(prompt, options1);//Initiaializing object of menu
+                                int selectedIndex1 = colorMenu.Run();//Creates a custom menu with the menu object initialized
 
                                 switch (selectedIndex1)
                                 {
-                                    case 0:
+                                    case 0://Manage your Movie i.e add,update,delete
                                         string y3;
                                         do
                                         {
@@ -93,7 +93,7 @@ namespace AdminConsole
                                             
                                             switch (selectedIndex2)
                                             {
-                                                case 0:
+                                                case 0: //Add Movie details
                                                     Console.WriteLine("--You have chosen ADD option--");
                                                     Console.WriteLine("Add Movie details");
                                                     Console.Write("Enter the Movie name: ");
@@ -124,7 +124,7 @@ namespace AdminConsole
                                                         Console.Write("Budget for the movie: ");
                                                         string mbudge = mmb.search();
                                                         MovieList ml = new MovieList(mname, myear, mcat, mlang, mrate, mlead, mdesc, duration, mbudge);
-                                                        if (mmb.insert_movie(ml))
+                                                        if (mmb.insert_movie(ml)) //Checking if insertion successfully
                                                         {
                                                             Console.Write("Inserted succesfully!!");
                                                         }
@@ -137,11 +137,11 @@ namespace AdminConsole
                                                     }
                                                     break;
                                                 case 1:
-                                                    //working fully
+                                                    //Delete Movie
                                                     Console.Clear();
                                                     Console.WriteLine("--You have chosen DELETE option--");
                                                     Console.Write("Enter name of the movie to be deleted: ");
-                                                    if (mmb.delete_movie())
+                                                    if (mmb.delete_movie())//Checking if the movie is deleted
                                                     {
                                                         Console.WriteLine("Movie DELETED!!\n");
                                                     }
@@ -151,11 +151,11 @@ namespace AdminConsole
                                                     }
                                                     break;
 
-                                                case 2:
+                                                case 2://Update movie details
                                                     Console.Clear();
                                                     Console.WriteLine("--You have chosen UPDATE option--");
                                                     Console.Write("Enter the name of the movie to be updated: ");
-                                                    string mn = mmb.search();
+                                                    string mn = mmb.search(); //Check if the movie is ther which needs to be updated
                                                     if (mmb.check_name(mn))
                                                     {
 
@@ -167,13 +167,13 @@ namespace AdminConsole
                                                             Console.Write("Update movie based on: ");
                                                             Console.WriteLine("\n");
                                                             string[] options3 = { "Release year", "Movie category", "Language", "Rating", "Lead Actor", "Description", "Duration", "Budget", "Update All" };
-                                                            Menu colorMenu2 = new Menu(prompt, options3);
-                                                            int selectedIndex3 = colorMenu2.Run();
+                                                            Menu colorMenu2 = new Menu(prompt, options3); //Initiaializing object of menu
+                                                            int selectedIndex3 = colorMenu2.Run(); //Creates a custom menu with the menu object initialized
                                                             //Console.BackgroundColor = ConsoleColor.White;
 
                                                             switch (selectedIndex3)
                                                             {
-                                                                case 0:
+                                                                case 0: //Update the year
 
                                                                     bool val1 = mmb.update_by_year(mn);
                                                                     if (val1)
@@ -182,7 +182,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 1:
-
+                                                                    //Update the category
 
                                                                     bool val2 = mmb.update_by_category(mn);
                                                                     if (val2)
@@ -191,6 +191,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 2:
+                                                                    //Update the language
                                                                     bool val3 = mmb.update_by_language(mn);
                                                                     if (val3)
                                                                         Console.WriteLine("Successfully updated");
@@ -198,6 +199,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 3:
+                                                                    //Update the rate
                                                                     bool val4 = mmb.update_by_rate(mn);
                                                                     if (val4)
                                                                         Console.WriteLine("Successfully updated");
@@ -205,7 +207,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 4:
-
+                                                                    //Update the lead actor
                                                                     bool val5 = mmb.update_by_lead(mn);
                                                                     if (val5)
                                                                         Console.WriteLine("Successfully updated");
@@ -213,6 +215,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 5:
+                                                                    //Update the description
                                                                     bool val6 = mmb.update_by_description(mn);
                                                                     if (val6)
                                                                         Console.WriteLine("Successfully updated");
@@ -220,6 +223,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 6:
+                                                                    //Update the duration
                                                                     bool val7 = mmb.update_by_duration(mn);
                                                                     if (val7)
                                                                         Console.WriteLine("Successfully updated");
@@ -227,16 +231,15 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                                 case 7:
+                                                                    //Update the budget
                                                                     bool val8 = mmb.update_by_budget(mn);
                                                                     if (val8)
                                                                         Console.WriteLine("Successfully updated");
                                                                     else
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
-                                                                case 8:
-                                                                    //Console.WriteLine("Search for the movie name to be update");
-                                                                    //string mnupd = Console.ReadLine();
-                                                                    //mmb.search_by_name(mnupd);
+                                                                case 8: //Update the whole movie details
+                                                                        
 
                                                                     Console.WriteLine("Enter the details to be updated");
 
@@ -280,7 +283,7 @@ namespace AdminConsole
                                                                         Console.WriteLine("NOT updated");
                                                                     break;
                                                             }
-                                                            Console.WriteLine("Press y to continue modifying same movie");
+                                                            Console.WriteLine("Press y/Y to continue updating same movie. \tPress any other key to move out of present menu.");
                                                             y4 = Convert.ToChar(Console.ReadLine());
                                                         } while (y4 == 'y' || y4 == 'Y');
                                                     }
@@ -290,7 +293,7 @@ namespace AdminConsole
                                                     }
                                                     break;
                                             }
-                                            Console.WriteLine("Press y to continue editing dataset or press n to revert back to original menu.");
+                                            Console.WriteLine("Press y/Y to continue editing the movie dataset. \tPress any other key to move out of present menu.");
                                             Console.WriteLine("\n");
                                             y3 = Console.ReadLine();
                                             Console.WriteLine("\n");
@@ -299,17 +302,17 @@ namespace AdminConsole
 
                                         break;
 
-                                    case 1:
+                                    case 1: //Search Movies
                                         Console.Clear();
                                         Console.Write("Search movie based on: ");
                                         Console.WriteLine("\n");
                                         string[] options11 = { "Name", "Release year", "Movie category", "Language", "Rating", "Lead Actor"};
-                                        Menu mainMenu11 = new Menu(prompt, options11);
-                                        int selectedIndex11 = mainMenu11.Run();
-                                        
+                                        Menu mainMenu11 = new Menu(prompt, options11);//Inistaizing object of menu
+                                        int selectedIndex11 = mainMenu11.Run(); //Creates a custom menu with the menu object initialized
+
                                         switch (selectedIndex11)
                                         {
-                                            case 0:
+                                            case 0: //Search with name of movie
                                                 Console.Write("Movie name: ");
                                                 if (!mmb.search_by_name())
                                                 {
@@ -318,7 +321,7 @@ namespace AdminConsole
                                                 Console.WriteLine();
 
                                                 break;
-                                            case 1:
+                                            case 1: //Search with Realease year of movie
                                                 Console.Write("Year of release: ");
 
                                                 if (!mmb.search_by_year())
@@ -327,7 +330,7 @@ namespace AdminConsole
                                                 }
                                                 Console.WriteLine();
                                                 break;
-                                            case 2:
+                                            case 2: //Search with Category of movie
                                                 Console.Write("Category of the movie: ");
                                                 if (!mmb.search_by_category())
                                                 {
@@ -336,7 +339,7 @@ namespace AdminConsole
                                                 }
                                                 Console.WriteLine();
                                                 break;
-                                            case 3:
+                                            case 3: //Search with language of movie
                                                 Console.Write("Language: ");
                                                 if (!mmb.search_by_language())
                                                 {
@@ -345,7 +348,7 @@ namespace AdminConsole
                                                 }
                                                 Console.WriteLine();
                                                 break;
-                                            case 4:
+                                            case 4: //Search with rating of movie
                                                 Console.Write("Rating of the movie: ");
 
 
@@ -355,7 +358,7 @@ namespace AdminConsole
                                                 }
                                                 Console.WriteLine();
                                                 break;
-                                            case 5:
+                                            case 5: //Search with lead actor of movie
                                                 Console.Write("Enter the lead actor: ");
                                                 if (!mmb.search_by_lead())
                                                 {
@@ -366,7 +369,7 @@ namespace AdminConsole
                                         }
 
                                         break;
-                                    case 2://WORKING FULLY
+                                    case 2: //Diaplay the whole movie details in the database
                                         Console.Clear();
                                         Console.WriteLine("All Movies:");
                                         Console.WriteLine();
@@ -374,7 +377,7 @@ namespace AdminConsole
                                         break;
                                 }
 
-                                Console.WriteLine("Press y to continue. Press n to move out.");
+                                Console.WriteLine("Press y to get original menu. \tPress any other key to move out.");
                                 y2 = Console.ReadLine();
                             } while (y2.Equals("y") || y2.Equals("Y"));
 
@@ -389,14 +392,14 @@ namespace AdminConsole
 
 
                 }
-                Console.WriteLine("Press y to continue/login. Press n to exit.");
+                Console.WriteLine("Press y to continue/login as adminstrator. \tPress any other key to exit admin page.");
                 y = Console.ReadLine();
             } while (y.Equals("y") || y.Equals("Y"));
 
-            using (var p1 = new Process())
+            using (var p1 = new Process()) //use this process to go back to movie management console
             {
                 Console.Clear();
-                p1.StartInfo.FileName = @"D:\Movie-Management-System-core\Movie-Management-System-core\moviemanagement\bin\Debug\netcoreapp3.1\moviemanagement.exe";
+                p1.StartInfo.FileName = @"D:\WORK\Movie-Management-System-core\Movie-Management-System-core\moviemanagement\bin\Debug\netcoreapp3.1\moviemanagement.exe";
                 p1.Start();
 
             }
@@ -405,19 +408,19 @@ namespace AdminConsole
             Console.ReadKey();
 
         }
-        class Menu
+        class Menu //Class needed to create the bblueprint for the game menu
         {
-            private int SelectedIndex;
-            private string[] Options;
-            private string Prompt;
+            private int SelectedIndex;//used as a key for switch statements
+            private string[] Options;//used as the options in the menu
+            private string Prompt;//This element will always be displayed in the menu before the actual menu
 
-            public Menu(string prompt, string[] options)
+            public Menu(string prompt, string[] options) //parametrized constructor
             {
                 Prompt = prompt;
                 Options = options;
                 SelectedIndex = 0;
             }
-            private void DisplayOptions()
+            private void DisplayOptions() //Displays all the values i.e Menu and the Prompt
             {
                 Console.WriteLine(Prompt);
                 for (int i = 0; i < Options.Length; i++)
@@ -440,7 +443,7 @@ namespace AdminConsole
                 }
                 Console.ResetColor();
             }
-            public int Run()
+            public int Run() //Function used to change the value of key for menu based on keyboard arrow keys
             {
                 ConsoleKey keyPressed;
                 do
