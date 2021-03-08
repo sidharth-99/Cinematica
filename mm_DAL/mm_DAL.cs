@@ -15,42 +15,22 @@ namespace mm_DAL
         //MovieList ml = new MovieList();
 
         SqlDataAdapter sd = new SqlDataAdapter();
-
-        SqlConnection c1 = new SqlConnection("Data Source=DESKTOP-TB0Q4FJ;Initial Catalog=moviems;Integrated Security=True");
-        public void total_list()
+        SqlConnection c1 = new SqlConnection("Data Source=SRILEKHA-R;Initial Catalog=moviems;Integrated Security=True");//This is used to connect to the database.
+        public void total_list()//Display All the movie details in the database
         {
             SqlCommand pro = new SqlCommand();
-            c1.Open();
+            c1.Open();//Open connection to database
             pro.CommandType = CommandType.StoredProcedure;
-            pro.CommandText = "total_list";
-            pro.Connection = c1;
+            pro.CommandText = "total_list";//execute procedure total_list
+            pro.Connection = c1;//connect the sql Commands with the database
             DataSet d7 = new DataSet();
             sd.SelectCommand = pro;
             sd.Fill(d7, "movie_list");
             c1.Close();
-            int n = d7.Tables[0].Rows.Count;
 
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("- - - - - - - - - - - - - - - -- - - - - - - - - - - - -");
-            for (int i = 0; i < n; i++)
-            {
-                Console.WriteLine("\t\t\t" + (d7.Tables[0].Rows[i][0]).ToString().ToUpper());
-                Console.WriteLine("Name: " + d7.Tables[0].Rows[i][0]);
-                Console.WriteLine("Year: " + d7.Tables[0].Rows[i][1]);
-                Console.WriteLine("Category: " + d7.Tables[0].Rows[i][2]);
-                Console.WriteLine("Language: " + d7.Tables[0].Rows[i][3]);
-                Console.WriteLine("Rating: " + d7.Tables[0].Rows[i][4]);
-                Console.WriteLine("Lead Actor: " + d7.Tables[0].Rows[i][5]);
-                Console.WriteLine("Description: " + d7.Tables[0].Rows[i][6]);
-                Console.WriteLine("Duration: " + d7.Tables[0].Rows[i][7]);
-                Console.WriteLine("Budget: " + d7.Tables[0].Rows[i][8]);
-                Console.WriteLine("- - - - - - - - - - - - - - - -- - - - - - - - - - - - -");
-
-            }
-            Console.ForegroundColor = ConsoleColor.White;
-            //dataset_print(d1);
+            dataset_print(d7);
         }
-        public bool search_name(string mname2)//string nm
+        public bool search_name(string mname2)// Search with Movie name
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -73,7 +53,7 @@ namespace mm_DAL
             }
             return false;
         }
-        public bool search_year(int myear2)//int year
+        public bool search_year(int myear2)//Search with Year of release
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -96,7 +76,7 @@ namespace mm_DAL
             return false;
 
         }
-        public bool search_category(string mcat2)//string c
+        public bool search_category(string mcat2)//Search with Category of movie
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -118,7 +98,7 @@ namespace mm_DAL
             }
             return false;
         }
-        public bool search_language(string mlang2)//string l
+        public bool search_language(string mlang2)//Search with Language of movie
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -138,7 +118,7 @@ namespace mm_DAL
             }
             return false;
         }
-        public bool search_rating(double mrate2)//double r
+        public bool search_rating(double mrate2)//Search with rating of movie
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -158,7 +138,7 @@ namespace mm_DAL
             }
             return false;
         }
-        public bool search_lead(string mlead2)//string s
+        public bool search_lead(string mlead2)//Search with lead actor of movie
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -179,7 +159,7 @@ namespace mm_DAL
             return false;
 
         }
-        public bool admin_delete(string maname)
+        public bool admin_delete(string maname)//Delete a movie 
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -195,7 +175,7 @@ namespace mm_DAL
             }
             return false;
         }
-        public bool admin_insert(MovieList m1)
+        public bool admin_insert(MovieList m1)//Insert Movie details into database
         {
             try
             {
@@ -230,31 +210,47 @@ namespace mm_DAL
                 Console.ResetColor();
                 return false;
             }
+            finally
+            {
+                c1.Close();
+            }
         }
-        public bool admin_update(MovieList m1)
+        public bool admin_update(MovieList m1)//Update movie details
         {
-            SqlCommand pro = new SqlCommand();
-            c1.Open();
-            pro.CommandType = CommandType.StoredProcedure;
-            pro.CommandText = "admin_update";
-            pro.Parameters.AddWithValue("@name", m1.moviename);
-            pro.Parameters.AddWithValue("@year", m1.movieyear);
-            pro.Parameters.AddWithValue("@category", m1.moviecat);
-            pro.Parameters.AddWithValue("@language", m1.movielang);
-            pro.Parameters.AddWithValue("@rated", m1.movierate);
-            pro.Parameters.AddWithValue("@lead", m1.movielead);
-            pro.Parameters.AddWithValue("@desc", m1.moviedesc);
-            pro.Parameters.AddWithValue("@dur", m1.movieduration);
-            pro.Parameters.AddWithValue("@bud", m1.moviebudget);
+            try
+            {
+                SqlCommand pro = new SqlCommand();
+                c1.Open();
+                pro.CommandType = CommandType.StoredProcedure;
+                pro.CommandText = "admin_update";
+                pro.Parameters.AddWithValue("@name", m1.moviename);
+                pro.Parameters.AddWithValue("@year", m1.movieyear);
+                pro.Parameters.AddWithValue("@category", m1.moviecat);
+                pro.Parameters.AddWithValue("@language", m1.movielang);
+                pro.Parameters.AddWithValue("@rated", m1.movierate);
+                pro.Parameters.AddWithValue("@lead", m1.movielead);
+                pro.Parameters.AddWithValue("@desc", m1.moviedesc);
+                pro.Parameters.AddWithValue("@dur", m1.movieduration);
+                pro.Parameters.AddWithValue("@bud", m1.moviebudget);
 
-            pro.Connection = c1;
-            int r = pro.ExecuteNonQuery();
-            c1.Close();
-            if (r > 0) return true;
-            else return false;
+                pro.Connection = c1;
+                int r = pro.ExecuteNonQuery();
+                c1.Close();
+                if (r > 0) return true;
+                else return false;
+            }
+            catch(Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
+                Console.ResetColor();
+                return false;
+            }
+            finally { c1.Close(); }
         }
 
-        public bool admin_det_insert(AdminDetails m1)
+
+        public bool admin_det_insert(AdminDetails m1)//insert admin registration details
         {
             try
             {
@@ -305,7 +301,8 @@ namespace mm_DAL
 
 
         }
-        public bool cust_det_insert(UserDetails m1)
+
+        public bool cust_det_insert(UserDetails m1)//Insert customer registration details     
         {
             try
             {
@@ -352,7 +349,7 @@ namespace mm_DAL
                 return false;
             }
         }
-        public bool admin_validity(int aid, string apwd)
+        public bool admin_validity(int aid, string apwd)//Validate Admin login
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -366,8 +363,8 @@ namespace mm_DAL
             DataSet d = new DataSet();
             sd.SelectCommand = pro;
             sd.Fill(d, "admin_details");
-            
-          int t = d.Tables[0].Rows.Count;
+
+            int t = d.Tables[0].Rows.Count;
             c1.Close();
 
             if (t > 0)
@@ -381,7 +378,7 @@ namespace mm_DAL
             else
                 return false;
         }
-        public bool cust_validity(int cid, string cpwd)
+        public bool cust_validity(int cid, string cpwd)//Validate Customer login
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -426,8 +423,8 @@ namespace mm_DAL
 
         }*/
 
-        
-        public bool update_by_year(string name, int sy1)
+
+        public bool update_by_year(string name, int sy1)//Update the year
         {
             SqlCommand pro1 = new SqlCommand();
             c1.Open();
@@ -446,7 +443,7 @@ namespace mm_DAL
             else return false;
 
         }
-        public bool update_by_category(string cat1, string cat2)
+        public bool update_by_category(string cat1, string cat2)//Update the category
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -464,7 +461,7 @@ namespace mm_DAL
 
         }
 
-        public bool update_by_language(string lan1, string lan2)
+        public bool update_by_language(string lan1, string lan2)//Update the language
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -481,26 +478,39 @@ namespace mm_DAL
 
         }
 
-        public bool update_by_rating(string name, double rate1)
+        public bool update_by_rating(string name, double rate1)//Update the rating
         {
-            SqlCommand pro = new SqlCommand();
-            c1.Open();
-            pro.CommandType = CommandType.StoredProcedure;
-            pro.CommandText = "update_by_rating";
-            pro.Parameters.AddWithValue("@name1", name);
-            pro.Parameters.AddWithValue("@sy1", rate1);
-            pro.Connection = c1;
-            pro.ExecuteNonQuery();
-            int r = pro.ExecuteNonQuery();
-            c1.Close();
-            if (r > 0) return true;
-            else return false;
-
+            try
+            {
+                SqlCommand pro = new SqlCommand();
+                c1.Open();
+                pro.CommandType = CommandType.StoredProcedure;
+                pro.CommandText = "update_by_rating";
+                pro.Parameters.AddWithValue("@name1", name);
+                pro.Parameters.AddWithValue("@sy1", rate1);
+                pro.Connection = c1;
+                pro.ExecuteNonQuery();
+                int r = pro.ExecuteNonQuery();
+                c1.Close();
+                if (r > 0) return true;
+                else return false;
+            }
+            catch(Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(e.Message);
+                Console.ResetColor();
+                return false;
+            }
+            finally
+            {
+                c1.Close();
+            }
         }
 
 
 
-        public bool update_by_lead(string lead1, string lead2)
+        public bool update_by_lead(string lead1, string lead2)//Update the lead
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -516,7 +526,7 @@ namespace mm_DAL
             else return false;
 
         }
-        public bool update_by_description(string lead1, string lead2)
+        public bool update_by_description(string lead1, string lead2)//Update the description
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -532,7 +542,7 @@ namespace mm_DAL
             else return false;
 
         }
-        public bool update_by_duration(string lead1, string lead2)
+        public bool update_by_duration(string lead1, string lead2)//Update the duration
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -548,7 +558,7 @@ namespace mm_DAL
             else return false;
 
         }
-        public bool update_by_budget(string lead1, string lead2)
+        public bool update_by_budget(string lead1, string lead2)//Update the budget
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
@@ -564,7 +574,7 @@ namespace mm_DAL
             else return false;
 
         }
-        public void give_value(string lead1, dynamic lead2)
+        public void give_value(string lead1, dynamic lead2)//Select Movie element(name,description etc) with respect to name
         {
             try
             {
@@ -584,18 +594,20 @@ namespace mm_DAL
                 Console.Write(e.Message);
                 Console.ResetColor();
             }
-
+            finally { c1.Close(); }
 
         }
-    
-    static void dataset_print(DataSet d7)
+
+        static void dataset_print(DataSet d7)//Used to print the dataset
         {
             int n = d7.Tables[0].Rows.Count;
-            Console.ForegroundColor = ConsoleColor.Magenta;
             for (int i = 0; i < n; i++)
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("\t\t\t #" + (i + 1));
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("- - - - - - - - - - - - - - - -- - - - - - - - - - - - -");
-                Console.WriteLine( "\t\t\t"+(d7.Tables[0].Rows[i][0]).ToString().ToUpper());
+                Console.WriteLine("\t\t\t" + (d7.Tables[0].Rows[i][0]).ToString().ToUpper());
                 Console.WriteLine("Name: " + d7.Tables[0].Rows[i][0]);
                 Console.WriteLine("Year: " + d7.Tables[0].Rows[i][1]);
                 Console.WriteLine("Category: " + d7.Tables[0].Rows[i][2]);
@@ -610,13 +622,51 @@ namespace mm_DAL
             }
             Console.ForegroundColor = ConsoleColor.White;
         }
-        public bool check_Name(string s1)
+        public bool check_Name(string s1)//Check the movie name
+        {
+            try
+            {
+                SqlCommand pro = new SqlCommand();
+                c1.Open();
+                pro.Connection = c1;
+
+                pro.CommandText = "select count(mname) from movie_list where mname = '" + s1 + "' ";
+
+                DataSet d = new DataSet();
+                sd.SelectCommand = pro;
+                sd.Fill(d, "movie_list");
+
+                int t = Convert.ToInt32(d.Tables[0].Rows[0][0].ToString());
+                c1.Close();
+
+                if (t > 0)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+            catch(Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(e.Message);
+                Console.ResetColor();
+                return true;
+            }
+            finally
+            {
+                c1.Close();
+            }
+        }
+
+
+        public bool admin_id_check(int aid)//check if admin id entered while registration exists or no
         {
             SqlCommand pro = new SqlCommand();
             c1.Open();
             pro.Connection = c1;
 
-            pro.CommandText = "select count(mname) from movie_list where mname = '" + s1 + "' ";
+            pro.CommandText = "select count(admin_id) from admin_details where admin_id = " + aid ;
 
             DataSet d = new DataSet();
             sd.SelectCommand = pro;
@@ -631,6 +681,29 @@ namespace mm_DAL
             }
             else
                 return false;
-        } 
+        }
+
+        public bool cust_id_check(int aid)// check if customer id while registration exists or no
+        {
+            SqlCommand pro = new SqlCommand();
+            c1.Open();
+            pro.Connection = c1;
+
+            pro.CommandText = "select count(cust_id) from customer_details where cust_id = " + aid;
+
+            DataSet d = new DataSet();
+            sd.SelectCommand = pro;
+            sd.Fill(d, "customer_details");
+
+            int t = Convert.ToInt32(d.Tables[0].Rows[0][0].ToString());
+            c1.Close();
+
+            if (t > 0)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
     }
 }
