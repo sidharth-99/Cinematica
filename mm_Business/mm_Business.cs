@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using mm_DAL;
 using mm_entity;
 using mm_exceptions;
@@ -12,14 +12,14 @@ namespace mm_Business
     {
         MovieManagementDAL dal = new MovieManagementDAL();
         //MovieList mlist;
-        SqlConnection c1 = new SqlConnection("Data Source=DESKTOP-TB0Q4FJ;Initial Catalog=moviems;Integrated Security=True");
+        SqlConnection c1 = new SqlConnection("Data Source=SRILEKHA-R;Initial Catalog=moviems;Integrated Security=True");//used to connect to our SQL server database
 
 
-        public void valid_total_list()
+        public void valid_total_list()//Display all the Movie datails in the database
         {
             dal.total_list();
         }
-        public bool search_by_name()
+        public bool search_by_name()//Search with the movie name
         {
             string mname2 = search();
             try
@@ -35,7 +35,7 @@ namespace mm_Business
             }
 
         }
-        public bool search_by_year()//used for searching
+        public bool search_by_year()//Search with Realease year of movie
         {
             int myear2 = search_year();
 
@@ -55,7 +55,7 @@ namespace mm_Business
 
 
         }
-        public bool search_by_category()
+        public bool search_by_category()//Search with Category of movie
         {
             string mcat2 = search();
 
@@ -75,7 +75,7 @@ namespace mm_Business
 
 
         }
-        public bool search_by_language()
+        public bool search_by_language()//Search with Language of movie
         {
             string mlang2 = search();
 
@@ -93,7 +93,7 @@ namespace mm_Business
 
 
         }
-        public bool search_by_rating()
+        public bool search_by_rating()//Search with Rating of movie
         {
             double mrate2 = search_rate();
 
@@ -112,7 +112,7 @@ namespace mm_Business
 
 
         }
-        public bool search_by_lead()
+        public bool search_by_lead()//Search with Lead actor of movie
         {
             string mlead2 = search();
 
@@ -130,7 +130,7 @@ namespace mm_Business
 
 
         }
-        public bool Admin_add(AdminDetails ls)
+        public bool Admin_add(AdminDetails ls)//Add admin registration details to dtatabase
         {
             bool var;
 
@@ -155,9 +155,7 @@ namespace mm_Business
                     throw new MovieManagementException("Empty Password isn't allowed");
                 }
 
-                //if (Regex.IsMatch(ls.adminpswd, @"^(?=.?[A-Z])(?=.?[a-z])(?=.?[0-9])(?=.?[#?!@$%^&*-]).{8,}$"))
-                //    throw new MovieManagementException("Password should contain one Captial letter ,one small letter,a number and a symbol");
-
+               
                 var = dal.admin_det_insert(ls);
 
 
@@ -180,7 +178,7 @@ namespace mm_Business
 
         }
 
-        public bool admin_validity(int aid, string apwd)
+        public bool admin_validity(int aid, string apwd)//Check if valid admin
         {
             bool var;
             if (aid > 0)
@@ -217,7 +215,7 @@ namespace mm_Business
             }
             return var;
         }
-        public bool cust_validity(int cid, string cpwd)
+        public bool cust_validity(int cid, string cpwd)//Check if valid Customer
         {
             bool var;
             if (cid > 0 && cpwd != "")
@@ -252,7 +250,7 @@ namespace mm_Business
             return var;
         }
 
-        public bool user_add(UserDetails ls)
+        public bool user_add(UserDetails ls)//Add Customer registration to database
         {
             bool var;
 
@@ -290,11 +288,11 @@ namespace mm_Business
             }
             return var;
         }
-        public bool insert_movie(MovieList m)
+        public bool insert_movie(MovieList m)//Inser movie details to database
         {
             return dal.admin_insert(m);
         }
-        public bool delete_movie()
+        public bool delete_movie()//delete movie from database
 
         {
             string mname = search();
@@ -303,7 +301,7 @@ namespace mm_Business
 
         // MovieManagementBusiness e = new MovieManagementBusiness();
 
-        public string search()//used for updating and inserting
+        public string search()//used for updating and inserting as exception are handled here
         {
             string value = Console.ReadLine();
             if (string.IsNullOrEmpty(value))
@@ -315,7 +313,7 @@ namespace mm_Business
             return value;
 
         }
-        public double search_rate()//used for updating and inserting
+        public double search_rate()//used for updating and inserting Movie rating as exception are handled here
         {
             try
             {
@@ -326,7 +324,7 @@ namespace mm_Business
                     rate = 0;
                 }
                     
-                else if (!Regex.IsMatch(mi, @"^(10|\d)(\.\d{1,2})?$"))
+                else if (!Regex.IsMatch(mi, @"^(10|\d)(\.\d{2,2})?$"))
                 {
                     rate = 0;
                 }
@@ -352,7 +350,7 @@ namespace mm_Business
             }
         }
 
-        public int search_year()//used for updating and inserting
+        public int search_year()//used for updating and inserting Movie year of release as exception are handled here
         {
             try
             {
@@ -371,7 +369,7 @@ namespace mm_Business
                     myear = Convert.ToInt32(mi);
                 }
                     
-                if (myear > 2021 || myear <= 1950)
+                if (myear > 2021 || myear <= 1950)//Year of release Should be less than 2021 and greater than 1950
                 {
                     Console.WriteLine("Entered year is INVALID. Try again");
                     return search_year();
@@ -389,55 +387,63 @@ namespace mm_Business
             }
         }
 
-        public bool update_by_year(string nm)
+        public bool update_by_year(string nm)//Update the year
         {
             dal.give_value(nm, "myear");
-            Console.WriteLine("Enter new year: ");
+            Console.Write("Enter new year: ");
             int year = search_year();
+            Console.WriteLine();
             return dal.update_by_year(nm, year);
         }
 
-        public bool update_all(MovieList m)
+        public bool update_all(MovieList m)//Update all the movie details
         {
             // int year = search_year();
             return dal.admin_update(m);
         }
-        public bool update_by_category(string nm)
+        public bool update_by_category(string nm)//Update the Category
         {
             dal.give_value(nm, "mcategory");
-            Console.WriteLine("Enter new category: ");
-            string category = search();
+            Console.Write("Enter new category: ");
+            string category = search(); 
+            Console.WriteLine();
+
             return dal.update_by_category(nm, category);
         }
 
-        public bool update_by_language(string nm)
+        public bool update_by_language(string nm)//Update the language
         {
             dal.give_value(nm, "mlanguage");
-            Console.WriteLine("Enter new language: ");
+            Console.Write("Enter new language: ");
             string language = search();
+            Console.WriteLine();
+
             return dal.update_by_language(nm, language);
         }
-        public bool update_by_rate(string nm)
+        public bool update_by_rate(string nm)//Update the rating
         {
 
             dal.give_value(nm, "rating");
-            Console.WriteLine("Enter new rating: ");
+            Console.Write("Enter new rating: ");
             double rate = search_rate();
+            Console.WriteLine();
             return dal.update_by_rating(nm, rate);
         }
 
-        public bool update_by_lead(string nm)
+        public bool update_by_lead(string nm)//Update the lead actor
         {
             dal.give_value(nm, "mlead");
-            Console.WriteLine("Enter new lead actor: ");
+            Console.Write("Enter new lead actor: ");
             string lead = search();
+            Console.WriteLine();
             return dal.update_by_lead(nm, lead);
         }
-        public bool update_by_description(string nm)
+        public bool update_by_description(string nm)//Update the description
         {
             dal.give_value(nm, "mdescription");
-            Console.WriteLine("Enter new description: ");
+            Console.Write("Enter new description: ");
             string desc = search();
+            Console.WriteLine();
             if (desc.Length < 100)
             {
                 Console.WriteLine("Description is too short");
@@ -447,40 +453,58 @@ namespace mm_Business
 
 
         }
-        public bool update_by_duration(string nm)
+        public bool update_by_duration(string nm)//Update the duration
         {
             dal.give_value(nm, "mduration");
-            Console.WriteLine("Enter new duration: ");
+            Console.Write("Enter new duration: ");
             string duration = search();
+            Console.WriteLine();
+
             return dal.update_by_duration(nm, duration);
         }
-        public bool update_by_budget(string nm)
+        public bool update_by_budget(string nm)//Update the budget
         {
 
             dal.give_value(nm, "mbudget");
-            Console.WriteLine("Enter new budget: ");
+            Console.Write("Enter new budget: ");
             string budget = search();
+            Console.WriteLine();
             return dal.update_by_duration(nm, budget);
         }
-        public int ID()//used for updating and inserting
+        public int aID()//validation for admin id
         {
             try
             {
                 string mi = Console.ReadLine();
+                Console.WriteLine();
+
                 int Id;
+                
                 if (string.IsNullOrEmpty(mi))
                     Id = 0;
-                else if(!Regex.IsMatch(mi, @"^\d+$"))
+                else if (!Regex.IsMatch(mi, @"^\d+$"))
                 {
                     Id = 0;
                 }
                 else
                     Id = Convert.ToInt32(mi);
+
+
+
+
                 if (Id <= 0)
-                {
-                    Console.WriteLine("Enter Valid ID");
-                    return ID();
-                }
+                    {
+                        Console.Write("Enter Valid ID: ");
+                        return aID();
+                    }
+                    else if (dal.admin_id_check(Id))
+                    {
+                        Console.WriteLine("ID Already exists.");
+                        Console.WriteLine("Enter new id");
+                        return aID();
+                    }
+                
+                
                 return Id;
             }
             catch (Exception e)
@@ -488,10 +512,94 @@ namespace mm_Business
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(e.Message);
                 Console.ResetColor();
-                return ID();
+                return aID();
             }
         }
-        public bool check_name(string s1)
+
+        public int cID()//validation of customer id
+        {
+            try
+            {
+                string mi = Console.ReadLine();
+                Console.WriteLine();
+
+                int Id;
+
+                if (string.IsNullOrEmpty(mi))
+                    Id = 0;
+                else if (!Regex.IsMatch(mi, @"^\d+$"))
+                {
+                    Id = 0;
+                }
+                else
+                    Id = Convert.ToInt32(mi);
+
+
+
+
+                if (Id <= 0)
+                {
+                    Console.Write("Enter Valid ID: ");
+                    return cID();
+                }
+                else if (dal.cust_id_check(Id))
+                {
+                    Console.WriteLine("ID Already exists.");
+                    Console.WriteLine("Enter new id");
+                    return cID();
+                }
+
+
+                return Id;
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
+                Console.ResetColor();
+                return cID();
+            }
+        }
+
+        public int ID()//used for validating id while login (for both user and customer)
+        {
+            try
+            {
+                string mi = Console.ReadLine();
+                Console.WriteLine();
+
+                int Id;
+
+                if (string.IsNullOrEmpty(mi))
+                    Id = 0;
+                else if (!Regex.IsMatch(mi, @"^\d+$"))
+                {
+                    Id = 0;
+                }
+                else
+                    Id = Convert.ToInt32(mi);
+
+
+
+
+                if (Id <= 0)
+                {
+                    Console.Write("Enter Valid ID: ");
+                    return ID();
+                }
+                
+
+                return Id;
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
+                Console.ResetColor();
+                return cID();
+            }
+        }
+        public bool check_name(string s1)//Check name entered is valid
         {
             if (dal.check_Name(s1))
             {
@@ -499,19 +607,28 @@ namespace mm_Business
             }
             return false;
         }
-        public string searchpwd()
+        public string searchpwd()//Check if password is valid
         {
             string value = MaskInputString();
+            Console.WriteLine();
             if (string.IsNullOrEmpty(value))
             {
                 Console.WriteLine("Value entered is empty. Please try again");
-                Console.WriteLine("Enter correct value: ");
+                Console.Write("Enter correct value: ");
                 return searchpwd();
             }
+            if (!Regex.IsMatch(value, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$"))
+            {
+                Console.WriteLine("Password should contain one Captial letter ,one small letter,a number and a symbol");
+                Console.Write("Enter correct value: ");
+                return searchpwd();
+
+            }
+
             return value;
 
         }
-        private static string MaskInputString()
+        private static string MaskInputString()//Mask the string i.e key using this function
         {
             SecureString pass = new SecureString();
             ConsoleKeyInfo keyInfo;
